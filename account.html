@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="antialiased" lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/assets/css/form.min.css" rel="stylesheet">
+    <link href="/assets/css/tailwind.css" rel="stylesheet">
+    <link href="/assets/css/base.css" rel="stylesheet">
+
+    <title>Рога и Сила - Главная страница</title>
+    <link href="/assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body class="bg-white text-gray-600 font-sans leading-normal text-base tracking-normal flex min-h-screen flex-col">
+<div class="wrapper flex flex-1 flex-col bg-gray-100">
+    <header class="bg-white">
+        <div class="border-b">
+            <div class="container mx-auto block overflow-hidden px-4 sm:px-6 sm:flex sm:justify-between sm:items-center py-4 space-y-4 sm:space-y-0">
+                <div class="flex justify-center">
+                    <a href="/" class="inline-block sm:inline hover:opacity-75">
+                        <img src="/assets/images/logo.png" width="222" height="30" alt="">
+                    </a>
+                </div>
+                <div>
+                    <nav class="flex justify-center sm:justify-end items-center space-x-8 text-sm">
+                        <a class="text-black hover:text-orange" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline-block text-orange h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span class="inline-block font-bold">Иван Владимирович</span>
+                        </a>
+                        <a class="text-gray-500 hover:text-orange" href="/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline-block text-orange h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                            </svg>
+                            Выйти
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="border-b">
+            <div class="container mx-auto overflow-hidden px-4 sm:px-6">
+                <section class="bg-white py-4">
+                    <ul class="list-inside bullet-list-item flex flex-wrap justify-between -mx-5 -my-2">
+                        <li class="px-5 py-2"><a class="text-gray-600 hover:text-orange" href="index.php">Главная</a></li>
+                        <li class="px-5 py-2"><a class="text-orange cursor-default"      href="/section1/">Раздел 1</a></li>
+                        <li class="px-5 py-2"><a class="text-gray-600 hover:text-orange" href="inner.html">Раздел 2</a></li>
+                        <li class="px-5 py-2"><a class="text-gray-600 hover:text-orange" href="inner.html">Раздел 3</a></li>
+                        <li class="px-5 py-2"><a class="text-gray-600 hover:text-orange" href="catalog.html">Каталог</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </header>
+    <main class="flex-1 container mx-auto bg-white overflow-hidden px-4 sm:px-6">
+        <div class="py-4 pb-8 space-y-2">
+            <h1 class="text-black text-3xl font-bold mb-4">Личный кабинет</h1>
+            
+            <div class="space-y-2">
+                <div class="space-y-2 pb-4 border-b">
+                    <p class="text-xl">Мои профиль</p>
+
+                    <div class="flex max-w-xl">
+                        <div class="flex-1 border px-4 py-2 bg-gray-200 font-bold">ФИО</div>
+                        <div class="flex-1 border px-4 py-2">Иван Владимирович Пэхэпэхо</div>
+                    </div>
+                    <div class="flex max-w-xl">
+                        <div class="flex-1 border px-4 py-2 bg-gray-200 font-bold">Email</div>
+                        <div class="flex-1 border px-4 py-2">ivan.php@programmirujy.good</div>
+                    </div>
+                    <div class="flex max-w-xl">
+                        <div class="flex-1 border px-4 py-2 bg-gray-200 font-bold">Телефон</div>
+                        <div class="flex-1 border px-4 py-2">8-900-1001</div>
+                    </div>
+                    <div class="flex max-w-xl">
+                        <div class="flex-1 border px-4 py-2 bg-gray-200 font-bold">Активность</div>
+                        <div class="flex-1 border px-4 py-2">Да</div>
+                    </div>
+                    <div class="flex max-w-xl">
+                        <div class="flex-1 border px-4 py-2 bg-gray-200 font-bold">Подписан на рассылку</div>
+                        <div class="flex-1 border px-4 py-2">Нет</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="space-y-2">
+                <p class="text-xl">Мои группы</p>
+
+                <ul class="list-inside list-disc">
+                    <li><span class="font-bold">Название группы</span> - описание группы</li>
+                    <li><span class="font-bold">Название группы</span> - описание группы</li>
+                    <li><span class="font-bold">Название группы</span> - описание группы</li>
+                </ul>
+            </div>            
+        </div>
+    </main>
+    <footer class="border-t bg-white">
+        <div class="container mx-auto overflow-hidden px-4 sm:px-6">
+            <div class="space-y-4 sm:space-y-0 sm:flex sm:justify-between items-center py-6 px-2 sm:px-0">
+                <div class="copy pr-8">© 2021 Рога &amp; Сила. Сайт для изучения php</div>
+                <div class="text-right">
+                    <a href="https://www.qsoft.ru" target="_blank" class="inline-block">Сделано в <img class="ml-2 inline-block" src="assets/images/qsoft.png" width="59" height="11" alt=""/></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
